@@ -217,15 +217,14 @@ color: rgba(47, 34, 34, 0.4);
 }
 
 .post-grid {
+    margin-bottom: 90px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 180px);
     gap: var(--grid-gap);
     }
     
-    .post-grid__item {
     
-    }
     
     .post-grid__item:nth-child(5n+1) {
         grid-column: 2 span;
@@ -257,6 +256,9 @@ color: rgba(47, 34, 34, 0.4);
     .post-grid__item:nth-child(5n+2) .blog-post__title{
         color: #fff;
     }
+    .post-grid__item:nth-child(5n+2) .blog-post__descr{
+        display: none;
+    }
     .post-grid__item:nth-child(5n+2) .blog-post__date{
         top: auto;
         right: auto;
@@ -277,6 +279,9 @@ color: rgba(47, 34, 34, 0.4);
     .post-grid__item:nth-child(5n+3) .blog-post__title{
         color: #fff;
     }
+    .post-grid__item:nth-child(5n+3) .blog-post__descr{
+        display: none;
+    }
     .post-grid__item:nth-child(5n+3) .blog-post__date{
         top: auto;
         right: auto;
@@ -284,3 +289,39 @@ color: rgba(47, 34, 34, 0.4);
         left: 30px;
         color: #fff;
     }
+    .post-grid__item:nth-child(5n+4) .blog-post{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .post-grid__item:nth-child(5n+4) .blog-post__category{
+       margin-bottom: 20px;
+      }
+      .post-grid__item:nth-child(5n+4) .blog-post__descr{
+      display: none;
+        }
+      .post-grid__item:nth-child(5n+4) .blog-post__date{
+     top: 30px
+       }
+       .post-grid__item:nth-child(5n+54) .blog-post{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+        .post-grid__item:nth-child(5n+5) .blog-post__category{
+           margin-bottom: 20px;
+          }
+          .post-grid__item:nth-child(5n+5) .blog-post__descr{
+          display: none;
+            }
+          .post-grid__item:nth-child(5n+5) .blog-post__date{
+         top: 30px
+           }
+           .pagination {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+           }
+           .pagination__link {
+            font-size: 18px;
+            line-height: 23px;
+            color: var(--dark-color);
+           }
