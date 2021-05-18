@@ -171,6 +171,8 @@ padding-left: 24px;
     height: 100%;
     background: #fff;
     border-radius: 20px;
+    transition:  background 0.3s ease-in-out, 
+    box-shadow 0.3s ease-in-out ;
 }
 .blog-post__category {
     display: inline-block;
@@ -275,7 +277,7 @@ color: rgba(47, 34, 34, 0.4);
     .post-grid__item:nth-child(5n+3) .blog-post {
         padding-left: 30px;
         padding-right: 30px;
-        background-color: var(--accent-color);
+        background: var(--accent-color);
     }
 
     .post-grid__item:nth-child(5n+3) .blog-post__category {
@@ -449,4 +451,10 @@ color: rgba(47, 34, 34, 0.4);
         font-size: 14px;
         line-height: 18px;
         color: var(--dark-color);
+    }
+    
+    .blog-post:hover {
+        background: #fff !important;
+        box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2) !important;
+        
     }
