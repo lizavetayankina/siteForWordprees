@@ -294,65 +294,121 @@ color: rgba(47, 34, 34, 0.4);
         left: 30px;
         color: #fff;
     }
-    .post-grid__item:nth-child(5n+4) .blog-post{
+    .post-grid__item:nth-child(5n+4) .blog-post {
     padding-top: 30px;
     padding-bottom: 30px;
     }
-    .post-grid__item:nth-child(5n+4) .blog-post__category{
-       margin-bottom: 20px;
+    .post-grid__item:nth-child(5n+4) .blog-post__category {
+        margin-bottom: 20px;
       }
-      .post-grid__item:nth-child(5n+4) .blog-post__descr{
+    .post-grid__item:nth-child(5n+4) .blog-post__descr {
       display: none;
-        }
-      .post-grid__item:nth-child(5n+4) .blog-post__date{
-     top: 30px
-       }
-       .post-grid__item:nth-child(5n+54) .blog-post{
+    }
+    .post-grid__item:nth-child(5n+4) .blog-post__date {
+        top: 30px
+    }
+    .post-grid__item:nth-child(5n+54) .blog-post {
         padding-top: 30px;
         padding-bottom: 30px;
-        }
-        .post-grid__item:nth-child(5n+5) .blog-post__category{
-           margin-bottom: 20px;
-          }
-          .post-grid__item:nth-child(5n+5) .blog-post__descr{
-          display: none;
-            }
-          .post-grid__item:nth-child(5n+5) .blog-post__date{
-         top: 30px
-           }
-           .pagination {
-               display: flex;
-               align-items: center;
-               justify-content: center;
-           }
-           .pagination__item:not(:last-child) {
-               margin-right: 20px;
-           }
-           .pagination__link {
-            position: relative;
-            font-size: 18px;
-            line-height: 23px;
-            color: var(--dark-color);
-           }
-           .pagination__link--current {
-               color: var(--accent-color);
-           }
+    }
+    .post-grid__item:nth-child(5n+5) .blog-post__category {
+        margin-bottom: 20px;
+    }
+    .post-grid__item:nth-child(5n+5) .blog-post__descr {
+        display: none;
+    }
+    .post-grid__item:nth-child(5n+5) .blog-post__date {
+        top: 30px
+    }
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pagination__item:not(:last-child) {
+         margin-right: 20px;
+    }
+    .pagination__link {
+        position: relative;
+        font-size: 18px;
+        line-height: 23px;
+        color: var(--dark-color);
+    }
+    .pagination__link--current {
+        color: var(--accent-color);
+    }
 
-           .pagination__link--current::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 2px;
-            background-color: currentColor;
-        }
-        .popular-posts__article {
-            padding: 0;
-            background-color: transparent;
-        }
-        .popular-posts__article .blog-post__title {
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 23px;
-        }
+    .pagination__link--current::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color: currentColor;
+    }
+    .popular-posts__title {
+        margin-bottom: 21px;
+    }
+    .popular-posts__article {
+        padding: 0;
+        padding-bottom: 9px;
+        padding-top: 9px;
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(47, 34, 34, 0.1);
+    }
+    .popular-posts__article .blog-post__title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    .popular-posts__article .blog-post__date {
+        position: initial;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .popular-posts__item:last-child .popular-posts__article {
+        border-bottom: 1px solid transparent;
+    }
+
+    .popular-posts {
+        margin-bottom: 32px;
+    }
+
+    .subscribe {
+        padding: var(--grid-gap) 0;
+        background: #fff;
+        border-radius: 20px;
+    }
+
+    .subscribe__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sub-form__input {
+        width: 100%;
+        border-radius: 20px;
+        background: #f5f5f5;
+        padding-left: 30px;
+        height: 50px;
+        font-family: 'Futura PT', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgba(47, 34, 34, 0.4);
+        border: none;
+    }
+    .sub-form__btn {
+        width: 100%;
+        height: 50px;
+        border-radius: 20px;
+        background-color: var(--accent-color);
+        font-family: 'Futura PT', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #fff;
+
+    }
