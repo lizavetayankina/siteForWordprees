@@ -50,8 +50,17 @@
     color: rgba(47, 34, 34, 0.4);
 }
 .post-title { 
+    margin-bottom: 30px;
     font-weight: 450;
     font-size: 30px;
     line-height: 38px;
-    color: var(--dark-color);
+    color: #000000;
+}
+
+.post p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
 }
