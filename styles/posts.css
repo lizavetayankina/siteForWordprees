@@ -1,0 +1,21 @@
+.post-banner {
+    padding: var(--grid-gap) 0;
+}
+.post-banner__container {
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    max-width: 1400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.post-content__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--grid-gap);
+}
+.post {
+    grid-column: 3 span;
+}
