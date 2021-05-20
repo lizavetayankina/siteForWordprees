@@ -26,7 +26,6 @@
    max-width: 800px;
 }
 .post-meta {
-    display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -45,9 +44,6 @@
 }
 
 .post-date {
-    position: absolute;
-    right: var(--grid-gap);
-    top: var(--grid-gap);
     font-size: 16px;
     line-height: 21px;
     color: rgba(47, 34, 34, 0.4);
@@ -67,7 +63,7 @@
     line-height: 23px;
     color: #000000;
 }
-.post img{
+.post img {
     border-radius: 20px;
     margin-bottom: 20px;
     display: inline-block;
