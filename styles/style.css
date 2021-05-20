@@ -107,6 +107,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.form-btn span {
+    margin-right: 12px;
+}
 /*== header ==*/
 
 .header {
@@ -427,12 +431,6 @@ color: rgba(47, 34, 34, 0.4);
         margin-bottom: 20px;
     }
 
-    .sub-form__btn {
-        
-    }
-    .sub-form__btn span {
-        margin-right: 12px;
-    }
 
     .footer {
         padding-top: var(--grid-gap);
@@ -459,9 +457,4 @@ color: rgba(47, 34, 34, 0.4);
         line-height: 18px;
         color: var(--dark-color);
     }
-    
-    .blog-post:hover {
-        background: #fff !important;
-        box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2) !important;
-        
-    }
+ 

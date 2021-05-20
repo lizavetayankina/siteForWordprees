@@ -1,0 +1,85 @@
+.contacts {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.contacts__container {
+    display: flex;
+    justify-content: space-between; 
+}
+.contacts__left {
+    width: calc(50% - 20px);
+	padding-top: 40px;
+	padding-left: 120px;
+}
+.contacts__rigth {
+    width: calc(50% - 20px);
+    padding-right: 120px;
+}
+.contacts__title {
+    margin-bottom: 32px;
+	font-size: 30px;
+	line-height: 38px;
+}
+.contacts-form-wrapper {
+    padding: 40px 60px;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+}
+.phone--contacts {
+    display: inline-block;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.adress {
+    margin-bottom: 40px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	padding-left: 25px;
+	color: var(--accent-color);
+	background-image: url("../img/cart.svg");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+.social__item:not(:last-child) {
+    margin-right: 20px;
+}
+.social__link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social__link--fb {
+    background-image: url('../img/Facebook.svg');
+}
+.social__link--vk {
+    background-image: url('../img/VK.svg');
+}
+.social__link--insta {
+    background-image: url('../img/Instagram.svg');
+}
+.social__link--tw {
+    background-image: url('../img/Twitter.svg');
+}
+.callback-form__input {
+	margin-bottom: 20px;
+}
+
+.callback-form__textarea {
+	resize: none;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	height: 81px;
+}
