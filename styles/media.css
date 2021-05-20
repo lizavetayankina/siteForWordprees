@@ -9,6 +9,7 @@
     .sub-form {
         padding: 0 15px;
     }
+
 }
 @media (max-width: 1024px) {
     .content__container {
@@ -38,10 +39,53 @@
         margin-bottom: 0;
         margin-right: 20px;
     }
+    
+    .contacts {
+        padding: 70px 0;
+    }
+    .contacts__left {
+		padding-left: 0;
+	}
+    .contacts__right {
+		padding-right: 0;
+	}
+
 }
 @media (max-width: 767px) {
-.post-grid__item {
-   grid-column: 3 span !important;
-   grid-row: 2 span !important;
+    
+:root {
+    --grid-gap: 30px;
+} 
+.blog-post--main {
+    height: auto;
 }
+.post-grid {
+display: block;
+}
+.post-grid__item:not(:last-child)  {
+   margin-bottom: var(--grid-gap);
+}
+.popular-posts__list{
+    display: block;
+}
+.popular-posts__item {
+    max-width: none;
+}
+.nav {
+    display: none;
+}
+.sub-form {
+    padding: 0 5%;
+}
+}
+@media (max-width: 375px) {
+    .sub-form  {
+        padding: 0;
+        display: block;
+    }
+    .sub-form__input {
+        margin-bottom: 20PX;
+        margin-right: 0;
+    }
+   
 }

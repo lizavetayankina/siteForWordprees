@@ -33,6 +33,7 @@
 }
 
 .adress {
+    display: block;
     margin-bottom: 40px;
 	font-style: normal;
 	font-weight: 400;
